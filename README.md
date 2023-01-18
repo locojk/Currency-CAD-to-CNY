@@ -1,1 +1,1 @@
-# Currency-CAD-to-CNY-
+# Currency-CAD-to-CNY
