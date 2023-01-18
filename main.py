@@ -4,10 +4,10 @@ url = "https://www.bankofcanada.ca/valet/observations/FXCADCNY/json"
 response = requests.get(url)
 data = response.json()
 
-# Extract the newest rate and the date it was last updated
+# Extract the newest rate
 newest_rate = data['observations'][-1]['FXCADCNY']['v']
 
-# Print the newest rate and the date it was last updated
+# Print the newest rate
 print()
 print(f"The newest rate change for CAD to CNY is {newest_rate}, 1 Canada Dollar equal to {newest_rate} Chinese Yuan")
 print()
