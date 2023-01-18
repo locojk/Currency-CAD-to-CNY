@@ -9,7 +9,7 @@ newest_rate = data['observations'][-1]['FXCADCNY']['v']
 
 # Print the newest rate and the date it was last updated
 print()
-print(f"The newest rate change for CNY to CAD is {newest_rate}, 1 Canada Dollar equal to {newest_rate} Chinese Yuan")
+print(f"The newest rate change for CAD to CNY is {newest_rate}, 1 Canada Dollar equal to {newest_rate} Chinese Yuan")
 print()
 
 # Calculate the difference in rate from the previous observation
