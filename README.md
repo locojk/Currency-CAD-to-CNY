@@ -6,7 +6,7 @@ The script requires Python 3 and the requests library. You can install the reque
 
 # Usage
 Download the script.
-Run the script using python by python main.py
+Run the script using python by "python main.py" in the CLI.
 The script will output the newest exchange rate for CAD to CNY, and whether it has increased or decreased since the previous rate.
 
 # API
